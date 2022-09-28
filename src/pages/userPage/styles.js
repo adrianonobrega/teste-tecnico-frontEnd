@@ -33,6 +33,13 @@ input{
     
 }
 
+span{
+    color:red;
+    font-size:12px;
+    position:relative;
+    bottom:4px
+}
+
 button{
     border-radius:8px;
     width: 100px
@@ -43,17 +50,11 @@ button{
       }
       background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(100,110,99,0.7511379551820728) 4%, rgba(149,147,147,1) 29%, rgba(185,194,196,1) 99%); 
 }
-
-
 `
-
 export const Form = styled.form`
 
 margin-left: 150px;
-
-
 `
-
 export const SectionRes = styled.section`
 
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(100,110,99,0.7511379551820728) 4%, rgba(149,147,147,1) 29%, rgba(185,194,196,1) 99%); 
